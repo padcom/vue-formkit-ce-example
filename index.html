@@ -9,13 +9,17 @@
     h1 {
       mask-clip: padding;
     }
+    /* This is how we can style parts of a custom component */
+    hello-world::part(header) {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1 class="b-gr">FormKit in CustomElement with Vue.js 3.3</h1>
+  <h1 class="bg-slate-300">FormKit in CustomElement with Vue.js 3.3</h1>
   <script type="module" src="./src/main.js"></script>
   <formkit-provider>
-    <hello-world title="Some other text"></hello-world>
+    <hello-world />
   </formkit-provider>
   <section>
     <label>Hello, world! label from index.html</label>

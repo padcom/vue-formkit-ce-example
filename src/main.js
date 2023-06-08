@@ -1,3 +1,5 @@
+import './tailwind.css'
+
 import { defineCustomElement } from 'vue'
 import FormKitProvider from './components/FormKitProvider.ce.vue'
 import HelloWorld from './components/HelloWorld.ce.vue'
