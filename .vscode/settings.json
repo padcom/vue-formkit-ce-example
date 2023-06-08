@@ -1,5 +1,8 @@
 {
   "cSpell.words": [
     "formkit"
-  ]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }

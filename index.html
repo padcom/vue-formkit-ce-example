@@ -5,11 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    h1 {
+      mask-clip: padding;
+    }
+  </style>
 </head>
 <body>
+  <h1 class="b-gr">FormKit in CustomElement with Vue.js 3.3</h1>
   <script type="module" src="./src/main.js"></script>
   <formkit-provider>
     <hello-world title="Some other text"></hello-world>
   </formkit-provider>
+  <section>
+    <label>Hello, world! label from index.html</label>
+  </section>
 </body>
 </html>
