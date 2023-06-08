@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "Matthias Hryniszak <padcom@gmail.com>",
@@ -14,6 +15,7 @@
     "@formkit/pro": "^0.112.5",
     "@formkit/vue": "^0.17.2",
     "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
     "vite": "^4.3.9",
     "vue": "^3.3.4"
   }
