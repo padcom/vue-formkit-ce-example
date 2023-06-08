@@ -2,7 +2,7 @@
   <slot />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { provide } from 'vue'
 import { optionsSymbol, defaultConfig } from '@formkit/vue'
 import { createProPlugin, mask } from '@formkit/pro'
