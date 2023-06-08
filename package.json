@@ -13,8 +13,14 @@
   "devDependencies": {
     "@formkit/pro": "^0.112.5",
     "@formkit/vue": "^0.17.2",
+    "@padcom/eslint-config-typescript": "^0.1.2",
+    "@padcom/eslint-config-vue": "^0.1.2",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "typescript": "5.0.4",
     "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1",
     "vue": "^3.3.4"
   }
 }
