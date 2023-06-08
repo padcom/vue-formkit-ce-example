@@ -8,17 +8,19 @@
 // extension takes configuration.
 //
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import { Config } from 'tailwindcss'
+import containerQueries from '@tailwindcss/container-queries'
+
+export default {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx,vue}',
   ],
   plugins: [
-    require('@tailwindcss/container-queries'),
+    containerQueries,
   ],
   future: {
     disableColorOpacityUtilitiesByDefault: true,
     respectDefaultRingColorOpacity: true,
   },
-}
+} as Config

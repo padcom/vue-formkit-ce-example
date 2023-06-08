@@ -6,18 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    h1 {
-      mask-clip: padding;
-    }
     /* This is how we can style parts of a custom component */
     hello-world::part(header) {
-      text-decoration: underline;
+      mask-clip: padding;
+      @apply underline;
     }
   </style>
 </head>
 <body>
-  <h1 class="bg-slate-300">FormKit in CustomElement with Vue.js 3.3</h1>
-  <script type="module" src="./src/main.js"></script>
+  <h1 class="bg-slate-300 flex selection:marker:only:last:a">FormKit in CustomElement with Vue.js 3.3</h1>
+  <script type="module" src="./src/main.ts"></script>
   <formkit-provider>
     <hello-world />
   </formkit-provider>

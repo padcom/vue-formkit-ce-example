@@ -15,7 +15,7 @@
   <FormKit type="mask" mask="(##) ### ### ###" label="Mask input" />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { FormKit } from '@formkit/vue'
 </script>
 

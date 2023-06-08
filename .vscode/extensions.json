@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "cpylua.language-postcss",
+    "kalimahapps.tailwindcss-kit",
+  ]
+}
