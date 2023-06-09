@@ -11,7 +11,7 @@
     Please note the selector here uses component class. It also works with different
     selectors (class, id,...)
   -->
-  <h1 part="header">Example h1 within custom component with no styling</h1>
+  <h1 part="header" class="header">Example h1 within custom component with no styling</h1>
   <FormKit type="mask" mask="(##) ### ### ###" label="Mask input" />
 </template>
 
@@ -24,6 +24,10 @@ import { FormKit } from '@formkit/vue'
 
 :host {
   @apply @container block w-auto;
+}
+
+.header {
+  @apply hover:text-stroke-200 cursor-pointer;
 }
 
 @container (max-width: 600px) {

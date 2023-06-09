@@ -8,8 +8,10 @@
 // extension takes configuration.
 //
 
-import { Config } from 'tailwindcss'
+import { type Config } from 'tailwindcss'
 import containerQueries from '@tailwindcss/container-queries'
+// @ts-ignore because this packet doesn't publish type information
+import textStroke from 'tailwindcss-text-stroke'
 
 export default {
   content: [
@@ -18,6 +20,7 @@ export default {
   ],
   plugins: [
     containerQueries,
+    textStroke,
   ],
   future: {
     disableColorOpacityUtilitiesByDefault: true,
