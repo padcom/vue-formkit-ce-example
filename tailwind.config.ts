@@ -9,9 +9,10 @@
 //
 
 import { type Config } from 'tailwindcss'
+import daisyui from 'daisyui'
 import containerQueries from '@tailwindcss/container-queries'
-// @ts-ignore because this packet doesn't publish type information
 import textStroke from 'tailwindcss-text-stroke'
+import { addDynamicIconSelectors } from '@iconify/tailwind'
 
 export default {
   content: [
@@ -19,6 +20,8 @@ export default {
     './src/**/*.{js,ts,jsx,tsx,vue}',
   ],
   plugins: [
+    addDynamicIconSelectors({}),
+    daisyui,
     containerQueries,
     textStroke,
   ],

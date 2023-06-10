@@ -1,6 +1,8 @@
 {
   "cSpell.words": [
-    "formkit"
+    "daisyui",
+    "formkit",
+    "iconify"
   ],
   "files.associations": {
     "*.css": "tailwindcss"
