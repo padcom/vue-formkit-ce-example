@@ -1,5 +1,5 @@
 <template>
-  <FormKit type="mask" mask="(##) ### ### ###" label="Mask input" />
+  <FormKit label="My input" validation="required|number|between:20,50" />
 </template>
 
 <script setup>
