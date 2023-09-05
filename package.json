@@ -11,7 +11,7 @@
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@formkit/pro": "^0.112.5",
+    "@formkit/pro": "^0.115.3",
     "@formkit/vue": "^1.0.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.3.9",
